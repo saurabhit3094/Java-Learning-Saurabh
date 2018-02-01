@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>1.8</java.version>
   </properties>
 
   <dependencies>
@@ -23,8 +24,6 @@
     </dependency>
   </dependencies>
   <modules>
-  	<module>Data-Modeling</module>
-  	<module>Refactor-Code</module>
-  	<module>MultiThreading</module>
+  <module>CodeRefactoring</module>
   </modules>
 </project>

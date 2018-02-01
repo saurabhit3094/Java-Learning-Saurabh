@@ -1,4 +1,4 @@
-package org.Multithreading.Task1;
+package org.CodeRefactoring;
 
 /**
  * Hello world!

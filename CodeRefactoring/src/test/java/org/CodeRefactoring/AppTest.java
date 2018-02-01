@@ -1,4 +1,4 @@
-package org.Multithreading.Task1;
+package org.CodeRefactoring;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.learning</groupId>
-    <artifactId>MultiThreading</artifactId>
+    <artifactId>Java-Learning-Saurabh</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.learning</groupId>
-  <artifactId>Multithreading-Task1</artifactId>
+  <artifactId>CodeRefactoring</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Multithreading-Task1</name>
+  <name>CodeRefactoring</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
