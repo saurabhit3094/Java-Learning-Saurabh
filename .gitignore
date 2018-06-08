@@ -23,3 +23,12 @@ hs_err_pid*
 
 .metadata/*
 /target/
+
+.idea/*
+CodeRefactoring.iml
+Java-Learning-Saurabh.iml
+Multithreading.iml
+DataStructures.iml
+Task1-ReadCsv.iml
+Algorithm.iml
+Problems.iml

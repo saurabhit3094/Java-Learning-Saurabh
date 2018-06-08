@@ -26,5 +26,8 @@
   <modules>
   <module>CodeRefactoring</module>
     <module>Multithreading</module>
+      <module>DataStructures</module>
+    <module>Algorithm</module>
+      <module>Problems</module>
   </modules>
 </project>
