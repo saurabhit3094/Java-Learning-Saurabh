@@ -87,14 +87,6 @@ public class NQueenProblem {
 
 
         //check left lower diagonal
-//        for (int i=row;i<length;i++){
-//            for (int j=column;j>=0;j--){
-//                if (board[i][j] == 1){
-//                    return false;
-//                }
-//            }
-//        }
-
         int rowCopy = row;
         int columnCopy = column;
         while(rowCopy<length && columnCopy>0){
@@ -107,14 +99,6 @@ public class NQueenProblem {
 
 
         //check left upper diagonal
-//        for (int i=row;i>=0;i--){
-//            for (int j=column;j>=0;j--){
-//                if (board[i][j] == 1){
-//                    return false;
-//                }
-//            }
-//        }
-
         rowCopy = row;
         columnCopy = column;
         while(rowCopy>0 && columnCopy>0){
