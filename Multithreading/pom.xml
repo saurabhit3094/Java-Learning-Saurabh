@@ -25,5 +25,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>Task1-ReadCsv</module>
+      <module>CoreConcepts</module>
   </modules>
 </project>

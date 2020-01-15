@@ -131,20 +131,19 @@ public class TrieImpl {
             System.out.println("1 for insert ");
             System.out.println("2 for search");
             System.out.println("3 for autocomplete");
-
+        try {
             int choice = sc.nextInt();
 
-            switch (choice)
-            {
-                case 1 :
+            switch (choice) {
+                case 1:
                     System.out.println("Enter string element to insert");
                     trieClass.insert(sc.next());
                     break;
-                case 2 :
+                case 2:
                     System.out.println("Enter string to search");
                     System.out.println("word exists : " + trieClass.wordExits(sc.next()));
                     break;
-                case 3 :
+                case 3:
                     System.out.println("Enter string to autoSuggest");
                     System.out.println("Auto suggestions are : " + trieClass.searchbyPrefix(sc.next()));
                     break;
@@ -152,7 +151,9 @@ public class TrieImpl {
                     System.out.println("Invalid selection");
 
             }
-
+        }catch (Exception e){
+            System.out.println("Wrong input ... ");
+        }
             System.out.println("please hit Y to continue and N to stop");
             input = sc.next().charAt(0);
         }while(input == 'Y');
